@@ -16,7 +16,7 @@ class Tour extends Component {
                 {/* iGuider Core */}
                 <link rel="stylesheet" href='./assets/css/iGuider.css'/>
                 <script type="text/javascript" src="./assets/js/jquery.iGuider"/>
-                <title>Yes sire</title>
+                <title>Yes sir</title>
             <script>
                     {`
                                 function()
