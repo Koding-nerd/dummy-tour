@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Tour from "./tour";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className="component header"> <h1>Header
+     </h1>
+
+     </div>
+     <div className="component table"> table
+
+     </div>
+     <div className="component bottom"> bottom
+
+     </div>
+      <Tour/>
     </div>
   );
 }
